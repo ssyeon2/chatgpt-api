@@ -52,14 +52,3 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
-
-                                function redirectToChatGPT() {
-                                    // ChatGPT 링크로 이동
-                                    href = "selfchatgpt/";
-                                }
-                            
-                                function redirectToSignLanguageChatGPT() {
-                                    // 수어ChatGPT 링크로 이동
-                                    href = "selfsignlanguagetochatgpt/";
-                                }
-
