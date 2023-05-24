@@ -46,11 +46,11 @@ def chat(request):
             class_names = np.array(class_names)
 
 
-            # # mlflow 로딩
-            # mlflow_uri="http://mini7-mlflow.carpediem.so/"
-            # mlflow.set_tracking_uri(mlflow_uri)
-            # model_uri = "models:/Sign_Signal/production"
-            # model = mlflow.keras.load_model(model_uri)
+            # mlflow 로딩
+            mlflow_uri="http://mini7-mlflow.carpediem.so/"
+            mlflow.set_tracking_uri(mlflow_uri)
+            model_uri = "models:/Sign_Signal_31/production"
+            model = mlflow.keras.load_model(model_uri)
 
 
             # history 저장을 위해 객체에 담아서 DB에 저장한다.
