@@ -3,7 +3,7 @@ import openai
 # Create your views here.
 
 #여기조심!!!!!!!!!!!!!!!!!!
-openai.api_key = ""
+openai.api_key = "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"
 
 
 #chatGPT에게 채팅 요청 API
